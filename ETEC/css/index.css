@@ -110,31 +110,45 @@ nav menu ul li a:hover{
 .container-center{
     width:100%;
     height: auto;
+    padding: 5px;  /*mudei tudo isso*/
     background-color: red;
+    display: table; /*mudei tudo isso*/
 }
 
 
 /* ================================================== DIV da IMG ================================================== */
+main div#container-center {
+    /*mudei tudo isso*/
+    width: 100%;
+    height: auto;
+    display: table;
+}
+
 
 .div-img{
-    width: 50%;
+    width: 60%; /*muedei aqui*/
     height: auto;
     background-color: aqua;
+    float: left; /*muedei aqui*/
 
 }
 
-.div-img img{
-    padding: 5%;
+.div-img img{ 
+    width: 100%; /*muedei aqui*/
+    /*padding: 5%;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%;*/
 }
+
 
 .div-asside{
-    padding: 5%;
+    width: 38%; /*muedei aqui*/
+    margin: 0 10px; /*mudei aqui*/
+   /* padding: 5%;*/
     color:green;
-    max-width: 50%;
-    max-height: 100%;
+    /*max-width: 50%;
+    max-height: 100%;*/
     background-color: bisque;
-    
-
+    float: left; /*muedei aqui*/
+    display: table; /*muedei aqui*/
 }
