@@ -1,0 +1,140 @@
+
+/* ================================================== ALL ================================================== */
+
+* {
+    /*TIRA TODA FORMATACAO NORMAL DO HTML E CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*TIRA A FORMATAÇÃO DO ITENS TIPO <A> QUE VEM COM SUBLINHADO , E BOLINHA E TAL*/
+    list-style: none;
+    text-decoration: none; 
+
+}
+
+body, html{
+    /*SELECIONA A FONTE A SER USADA NO PROJETO*/
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+
+}
+
+/* ================================================== HEADER ================================================== */
+
+header{
+    /*O TAMANHO DO CABECALHO VAI PEGAR 20% DA TELA */
+    height: 20vh;
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue ;
+}
+
+main {
+
+    background-color: #AAA;
+    width: 100%;
+    height: 80vh;
+}
+/* ================================================== MENU NAVEGACAO ================================================== */
+nav {
+    width: 100%;
+    height: 12vh;   
+    margin: 0 auto ;
+    background-color: #DDD;
+
+
+}
+
+nav menu {
+    /*O MENU VAI PEGAR A NAV INTEIRA*/
+    width: 100%;
+    height: auto ;
+
+    /*ALINHAR O TEXTO NO CENTRO*/
+    text-align: center;
+
+}
+
+
+nav menu ul {
+    width: 50%;
+    /*QUERO QUE A LISTA FIQUE UM DO LADO DO OUTRO*/
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+nav menu ul li {
+    width: 40%;
+    height: auto;
+    
+    text-align: center;
+
+    /*Colocar uma borda branca ao redor do Li levemente aredondada*/
+    border: 2px solid white;
+    border-radius : 3px;
+    margin: 1em;
+
+}
+
+nav menu ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 3em;
+    color: #fff;
+}
+
+/*Quando eu passar o mouse em cima da tag <a>*/
+nav menu ul li a:hover{
+    
+    /*vai ter uma transição para todos os elementos */
+    transition : all ;
+    /* que vai ter um delay pra começar de 200 milisegundos*/
+    transition-delay: 200ms;
+    /*a transição vai demorar 500ms*/
+    transition-duration: 500ms;
+
+    /*ele vai crescer em 50%*/
+    transform: scale(1.25,1.25);
+    
+    /*a cor de fundo vai trocar para #26de81*/
+    background-color: #26de81;
+
+    /*vou trocar o tipo da fonte para bold(negrito)*/
+    font-weight: bold;
+
+}
+
+/* ================================================== Container do meio  ================================================== */
+
+.container-center{
+    width:100%;
+    height: auto;
+    background-color: red;
+}
+
+
+/* ================================================== DIV da IMG ================================================== */
+
+.div-img{
+    width: 50%;
+    height: auto;
+    background-color: aqua;
+
+}
+
+.div-img img{
+    padding: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.div-asside{
+    padding: 5%;
+    color:green;
+    max-width: 50%;
+    max-height: 100%;
+    background-color: bisque;
+    
+
+}
