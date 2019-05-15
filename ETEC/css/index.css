@@ -17,7 +17,7 @@ body, html{
     /*SELECIONA A FONTE A SER USADA NO PROJETO*/
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
-
+    background-color:#23231A;
 }
 
 /* ================================================== HEADER ================================================== */
@@ -27,12 +27,12 @@ header{
     height: 20vh;
     width: 100%;
     margin: 0 auto;
-    background-color: blue ;
+    background-color: transparent ;
 }
 
 main {
 
-    background-color: #AAA;
+    background-color: #2A2B2E;
     width: 100%;
     height: 80vh;
 }
@@ -41,7 +41,7 @@ nav {
     width: 100%;
     height: 12vh;   
     margin: 0 auto ;
-    background-color: #DDD;
+    background-color: rgba(16, 150, 3,0.2);
 
 
 }
@@ -111,11 +111,14 @@ nav menu ul li a:hover{
     width:100%;
     height: auto;
     padding: 5px;  /*mudei tudo isso*/
-    background-color: red;
+    background-color: #1B2021;
     display: table; /*mudei tudo isso*/
 }
 
-
+main div section {
+    width: 100%;
+    height: auto;
+}
 /* ================================================== DIV da IMG ================================================== */
 main div#container-center {
     /*mudei tudo isso*/
@@ -128,15 +131,15 @@ main div#container-center {
 .div-img{
     width: 60%; /*muedei aqui*/
     height: auto;
-    background-color: aqua;
+    /*background-color: aqua;*/
     float: left; /*muedei aqui*/
 
 }
 
 .div-img img{ 
     width: 100%; /*muedei aqui*/
-    /*padding: 5%;
-    max-width: 100%;
+   padding: 5%;
+    /* max-width: 100%;
     max-height: 100%;*/
 }
 
@@ -144,11 +147,17 @@ main div#container-center {
 .div-asside{
     width: 38%; /*muedei aqui*/
     margin: 0 10px; /*mudei aqui*/
-   /* padding: 5%;*/
-    color:green;
+    padding: 5%;
+    
+    color:white;
     /*max-width: 50%;
     max-height: 100%;*/
-    background-color: bisque;
+    background-color: transparent;
     float: left; /*muedei aqui*/
     display: table; /*muedei aqui*/
+}
+
+.div-asside p {
+    height: 100%;
+    width: 100%;
 }
